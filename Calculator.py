@@ -1,4 +1,4 @@
-
+import addition
 def subtract(x, y):
     return x - y
 def main():
@@ -9,6 +9,8 @@ def main():
     match(op):
         case "-":
             result=subtract(num1,num2)
+        case "+":
+            result=addition(num1,num2)
     
 
     print("Result is: {result}")
