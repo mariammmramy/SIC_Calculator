@@ -15,7 +15,7 @@ def main():
         case "*":
             result=Multi(num1,num2)      
 
-    print("Result is: {result}")
+    print(f"Result is: {result}")
 
 if __name__ == "__main__":
     main()
